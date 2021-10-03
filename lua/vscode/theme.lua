@@ -125,7 +125,7 @@ theme.load_syntax = function()
 		TSStructure = { c.vscLightBlue, nil, 'none', nil},
 		TSInclude = { c.vscPink, nil, 'none', nil},
 		TSVariable = { c.vscLightBlue, nil, 'none', nil},
-		TSVariableBuiltin = { c.vscLightBlue, nil, 'none', nil},
+		TSVariableBuiltin = { c.vscBlue, nil, 'none', nil},
 		TSText = { c.vscYellowOrange, nil, 'none', nil},
 		TSStrong = { c.vscYellowOrange, nil, 'none', nil},
 		TSEmphasis = { c.vscYellowOrange, nil, 'none', nil},
@@ -159,7 +159,7 @@ theme.load_syntax = function()
 		htmlEndTag = { c.vscGray, nil, 'none', nil},
 		htmlTagName = { c.vscBlue, nil, 'none', nil},
 		htmlSpecialTagName = { c.vscBlue, nil, 'none', nil},
-		htmlArg = { c.vscLightBlue, nil, 'none', nil},
+		htmlArg = { c.vscYellow, nil, 'none', nil},
 
 		-- PHP
 		phpStaticClasses = { c.vscBlueGreen, nil, 'none', nil},
@@ -501,5 +501,3 @@ theme.link_highlight = function ()
 end
 
 return theme
-
-
